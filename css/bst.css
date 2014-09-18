@@ -51,11 +51,6 @@ An example of how to use CSS to display an image as a background of an HTML elem
   background: url(../img/bst.png) 0 0 no-repeat;
   background-size: 95px 95px
 }
-#site-title a:hover {
-  background: url(../img/bst-hover.png) 0 0 no-repeat;
-  background-size: 95px 95px;
-  text-decoration: none
-}
 .main-nav {
   margin-top: 20px
 }

@@ -69,30 +69,3 @@ Delete this whole <nav>...</nav> block if you don't want it, and delete the line
 register_nav_menu('lower-bar', __('Main menu (below site title)'));
 */
 ?>
-  <div class="container main-nav">
-    <nav class="navbar navbar-default navbar-static" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".lower-navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <?php /* <a class="navbar-brand" href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a> */ ?>
-      </div><!-- /.navbar-header -->
-      <div class="collapse navbar-collapse lower-navbar">    
-        <?php				
-            $args = array(
-              'theme_location' => 'lower-bar',
-              'depth' => 0,
-              'container'	=> false,
-              'fallback_cb' => false,
-              'menu_class' => 'nav navbar-nav',
-              'walker' => new BootstrapNavMenuWalker()
-            );
-            wp_nav_menu($args);
-        ?>
-      </div><!-- /.navbar-collapse -->
-  	</nav>
-
-  </div>
