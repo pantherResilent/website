@@ -6,7 +6,7 @@ and delete the corresponding segment of bst.js
 @media (min-width: 768px) {
   .navbar-nav .caret {
     display: none
-  } 
+  }
   /* Delete the above if you wish to display the caret */
   .navbar-nav .open ul {
     display: none
@@ -31,7 +31,7 @@ and delete the corresponding segment of bst.js
 /*
 Max content widths
 */
-.size-auto, 
+.size-auto,
 .size-full,
 .size-large,
 .size-medium,
@@ -46,7 +46,7 @@ An example of how to use CSS to display an image as a background of an HTML elem
 */
 
 #site-title a {
- 
+
 }
 .main-nav {
   margin-top: 20px
@@ -100,7 +100,7 @@ ol.commentlist > li {
 ol.commentlist > li:before {
   content: "Thread " counter(li); /* Use the counter as content */
   counter-increment: li; /* Increment the counter by 1 */
-  position:absolute;  
+  position:absolute;
   top: 0;
   right: 0;
   border-bottom: 1px solid #ddd;
@@ -161,10 +161,20 @@ Woocommerce re-styling
 }
 /* CUSTOM */
 body{
-	background-color: rgb(199, 199, 199);
+	background-color: rgba(253, 99, 99, 1);
+}
+body a:link{
+  color: white;
+}
+body a:hover{
+  color: #B10000;
+  text-decoration: none;
+}
+body a:visited{
+  color: #666666;
 }
 #site-title{
-  background-color: rgb(148, 148, 148);
+  background-color: rgba(190, 16, 16, 0.5);
   padding: 10px;
 }
 /*Header Color*/
@@ -173,5 +183,5 @@ body{
 }
 #content{
   padding: 20px;
-  background-color: rgb(148, 148, 148);
+  background-color: rgba(190, 16, 16, 0.5);
 }

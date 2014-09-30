@@ -25,6 +25,16 @@ register_nav_menu('upper-bar', __('Screen-top menu'));
 */
 ?>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 id="site-title">
+          <a class="text-muted" href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+        </h1>
+      </div>
+    </div>
+  </div>
+
 <?php
 /*
 Lower menubar (main menubar, below site title)

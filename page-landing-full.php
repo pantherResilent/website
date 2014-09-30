@@ -3,6 +3,9 @@
 Template Name: Landing Page
 */
 ?>
+
+<?php get_template_part('parts/header'); ?>
+
 <div class="container">
   <div class="row">
 
