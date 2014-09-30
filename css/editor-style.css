@@ -6,7 +6,7 @@ Editor stylesheet
 3. Then add some CSS to improve your experience in the tiny-mce editor.
 */
 
-@import url('bootstrap.min.css');
+@import url('bootstrap.css');
 @import url('bst.css');
 
 body, body.wp-autoresize {

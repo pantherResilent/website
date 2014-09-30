@@ -46,10 +46,7 @@ An example of how to use CSS to display an image as a background of an HTML elem
 */
 
 #site-title a {
-  display: inline-block;
-  padding: 30px 0 30px 100px;
-  background: url(../img/bst.png) 0 0 no-repeat;
-  background-size: 95px 95px
+ 
 }
 .main-nav {
   margin-top: 20px
@@ -161,4 +158,20 @@ Woocommerce re-styling
 .woocommerce-page .woocommerce-info:before,
 .woocommerce-page .woocommerce-message:before {
   padding-top: 0
+}
+/* CUSTOM */
+body{
+	background-color: rgb(199, 199, 199);
+}
+#site-title{
+  background-color: rgb(148, 148, 148);
+  padding: 10px;
+}
+/*Header Color*/
+.text-muted {
+  color:black;
+}
+#content{
+  padding: 20px;
+  background-color: rgb(148, 148, 148);
 }
