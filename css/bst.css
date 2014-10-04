@@ -162,7 +162,7 @@ Woocommerce re-styling
 }
 /* CUSTOM */
 body{
-	background-color: rgba(253, 99, 99, 1);
+	background-color: #FF3434;
 }
 body a:link{
   color: white;
@@ -175,8 +175,10 @@ body a:visited{
   color: #666666;
 }
 #site-title{
-  background-color: rgba(190, 16, 16, 0.5);
+  background-color: #A62929;
   padding: 10px;
+  border: 2px solid #FF7800;
+  border-radius: 3px;
 }
 /*Header Color*/
 .text-muted {
@@ -184,5 +186,13 @@ body a:visited{
 }
 #content{
   padding: 20px;
-  background-color: rgba(190, 16, 16, 0.5);
+  background-color: #A62929;
+  border: 2px solid #FF7800;
+  border-radius: 3px;
+}
+.sidebar{
+  background-color: #A62929;
+  border: 2px solid #FF7800;
+  padding: 5px;
+  border-radius: 3px;
 }
