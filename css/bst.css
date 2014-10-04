@@ -45,8 +45,9 @@ Header logo
 An example of how to use CSS to display an image as a background of an HTML element.
 */
 
-#site-title a {
-
+#site-title img {
+  height: 95px;
+  width: auto;
 }
 .main-nav {
   margin-top: 20px
